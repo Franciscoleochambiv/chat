@@ -19,7 +19,7 @@ var pusher = new Pusher({
   cluster: '',
   encrypted: true
 });
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3600;
 
 const points_to_start_new_chat = 5;
 //Views 

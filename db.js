@@ -1,7 +1,7 @@
 const MongoClient = require("mongodb").MongoClient;
 const ObjectID = require("mongodb").ObjectID;
 const dbname = "chat-app";
-const url = "url db";
+const url = "mongodb+srv://sopadecaracol1:sopadecaracol1@cluster0.cnmg4.mongodb.net/chat-app?retryWrites=true&w=majority";
 const mongoOptions = {useNewUrlParser:true};
 
 const state = {
